@@ -98,8 +98,8 @@ int login(){
    for(int i=0;i<pass[trial].length();i++){
         encodedstring[trial]+=codes[pass[trial][i]];
    }
-   //Compare with encoded actual password.
-   if(encodedstring[trial] == "001111000101110100010111011"){
+   //Compare with encoded actual password "utpalgupta".
+   if(encodedstring[trial] == "11011101100010001100111110"){
       cout << "\n\n\n\n\t\t\t\t\t Welcome To the System \n\n";
       system("PAUSE");   //Press any key to continue...
    }else{
@@ -377,7 +377,6 @@ int main(){
        {
         //exiting from the system at the end of the day.
         system("CLS");
-        cout<<"\n\n\n\t\t\t Copyright Jay Prakash, T&C applied \n\t\t\t ";
        exit(0);
         break;
       }
