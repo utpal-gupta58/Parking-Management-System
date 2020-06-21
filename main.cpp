@@ -80,7 +80,7 @@ int login(){
   }
    pass[trial] ="";
    char ch;
-   cout <<"\n\n\n\n\n\n\n\t\t\t\t\tWelcome to Parking Management System (Creator: JP) \n\t\t\t\t\tLogin to continue";
+   cout <<"\n\n\n\n\n\n\n\t\t\t\t\tWelcome to Parking Management System  \n\t\t\t\t\tLogin to continue";
    cout << "\n\n\n\n\n\n\n\t\t\t\t\t\tEnter Password: ";
    //_getch() read input from console but it doesn't write that input on console.
    ch = _getch();
